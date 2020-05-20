@@ -115,7 +115,7 @@
                                             {
                                                 "obj_type": "Image",
                                                 "params": {
-                                                    "src": "/pizza.jpg",
+                                                    "src": "./pizza.jpg",
                                                     "fit_width": true
                                                 }
                                             },
@@ -238,7 +238,7 @@
         {
           "obj_type": "Image",
           "params": {
-            "src": "/pizza.jpg",
+            "src": "./pizza.jpg",
             "align": "center"
           }
         },
