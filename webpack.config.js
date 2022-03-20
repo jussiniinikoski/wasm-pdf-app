@@ -8,12 +8,20 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [
-        {from: 'index.html'},
-        {from: 'text-example.json'},
-        {from: 'pizza.jpg'},
+      patterns: [{
+          from: 'index.html'
+        },
+        {
+          from: 'text-example.json'
+        },
+        {
+          from: 'pizza.jpg'
+        },
       ],
     }),
   ],
+  experiments: {
+    asyncWebAssembly: true,
+  },
   mode: "development"
 };
